@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+    font-size: 16px; /* 默认情况下 1rem 等于 16px */
+}
+
+/* 当屏幕宽度小于等于 768px 时 */
+@media (max-width: 768px) {
+    html {
+        font-size: 14px; /* 此时 1rem 等于 14px */
+    }
+}
+
+/* 当屏幕宽度小于等于 480px 时 */
+@media (max-width: 480px) {
+    html {
+        font-size: 12px; /* 此时 1rem 等于 12px */
+    }
+}
