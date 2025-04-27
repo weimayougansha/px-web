@@ -11,12 +11,14 @@ module.exports = {
     "./app.vue",
   ],
   theme: {
+    /*
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],
       sm: ['0.875rem', { lineHeight: '1.25rem' }],
       base: ['1rem', { lineHeight: '1.5rem' }],
       // 其他字体大小设置...
     },
+    
     spacing: {
       px: '1px',
       0: '0',
@@ -24,6 +26,7 @@ module.exports = {
       1: '0.25rem',
       // 其他间距设置...
     },
+    */
     extend: {},
   },
   plugins: [],

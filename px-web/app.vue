@@ -15,6 +15,5 @@
 </style>
 
 <style>
-/* 引入全局的 main.css 文件 */
-@import '@/assets/css/tailwind.css';
+
 </style>
