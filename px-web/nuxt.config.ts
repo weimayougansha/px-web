@@ -14,6 +14,10 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ['@element-plus/nuxt'],
+  modules: ['@element-plus/nuxt', 'nuxt-echarts'],
   elementPlus: { /** Options */ },
+  echarts: {
+    charts: ['MapChart'],
+    components: ['DatasetComponent', 'GridComponent', 'TooltipComponent'],
+  },
 })

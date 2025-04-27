@@ -1,1 +1,0 @@
-import{Q as e,_ as t,c as o,a as c,o as n}from"./8UpBnj1s.js";const r=e("/bg.png"),a={},_={class:"h-[400px]"};function i(l,s){return n(),o("div",_,s[0]||(s[0]=[c("img",{src:r},null,-1)]))}const d=t(a,[["render",i]]);export{d as default};
